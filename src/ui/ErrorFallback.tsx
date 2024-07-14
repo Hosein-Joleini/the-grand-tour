@@ -5,6 +5,7 @@ export default function ErrorFallback({
   resetErrorBoundary,
 }: {
   error: Error;
+  resetErrorBoundary: () => void;
 }) {
   return (
     <section className='h-dvh flex flex-col justify-center items-center bg-gray-50 p-16 dark:bg-gray-900'>

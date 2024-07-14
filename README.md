@@ -52,3 +52,8 @@ For any inquiries, please contact us at hosseinjoleini94@gmail.com
 ## Live version
 
 Check out the live version of the application here.
+
+To access the dashboard, use the following credentials:
+
+- **Email:** test@test.com
+- **Password:** 1234

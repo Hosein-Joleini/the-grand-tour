@@ -51,7 +51,7 @@ For any inquiries, please contact us at hosseinjoleini94@gmail.com
 
 ## Live version
 
-Check out the live version of the application here.
+Check out the live version of the application [here](the-grand-tour.vercel.app).
 
 To access the dashboard, use the following credentials:
 

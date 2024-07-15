@@ -10,7 +10,7 @@ export default function DashboardActivity() {
   if (isLoading) return <Loader />;
 
   return (
-    <div className='bg-gray-50 col-span-full rounded-md p-8 overflow-y-scroll dark:bg-gray-800'>
+    <div className='bg-gray-50 col-span-full rounded-md p-8 overflow-y-auto dark:bg-gray-800'>
       <h2 className='text-3xl font-semibold mb-12'>امروز</h2>
       {todayBookings?.length === 0 ? (
         <p className='text-xl font-medium text-center'>

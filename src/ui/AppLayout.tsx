@@ -9,9 +9,11 @@ export default function AppLayout() {
       <MainNavigation />
       <div className='grid grid-rows-[min-content_1fr]'>
         <Header />
-        <main className='overflow-auto bg-gray-100 p-12 dark:bg-gray-900 dark:text-slate-50'>
-          <Outlet />
-        </main>
+        <div className='overflow-auto bg-gray-100 p-12 dark:bg-gray-900 dark:text-slate-50'>
+          <main className='xl:max-w-5xl mx-auto'>
+            <Outlet />
+          </main>
+        </div>
       </div>
     </div>
   );
